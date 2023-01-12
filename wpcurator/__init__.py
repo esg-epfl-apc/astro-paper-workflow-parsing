@@ -39,7 +39,7 @@ def fetch(uri: str): # only arxiv for now
     basedir.mkdir(parents=True, exist_ok=True)
     # with tempfile.TemporaryDirectory(dir=basedir) as tmpdir:
 
-    tmpdir = basedir / "paper"
+    tmpdir = basedir / arxivid
     tmpdir.mkdir(parents=True, exist_ok=True)
 
     if True:

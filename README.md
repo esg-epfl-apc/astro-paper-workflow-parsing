@@ -6,4 +6,4 @@ here we:
 * find workflow refrences
 * recompute them
 * if needed and if possible, update to recomputed ones
-* add labels if computable
+* add labels of computability and when, if computable
