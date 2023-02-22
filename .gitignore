@@ -1,2 +1,8 @@
 __pycache__
 paper-build
+
+.nb2workflow/
+exp_crate/
+paper_hashe.png
+texput.log
+

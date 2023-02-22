@@ -1,0 +1,4 @@
+
+mmoda: |
+       from wpcurator.normalize import validated_workflowhub_rocrate
+        
