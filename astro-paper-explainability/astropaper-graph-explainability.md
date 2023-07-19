@@ -1,26 +1,6 @@
-Subject:
-Re: Viewing Cashed Graph
-From:
-"Volodymyr Savchenko [EPFL]" <Volodymyr.Savchenko@epfl.ch>
-Date:
-26.06.23, 18:30
-To:
-Stian Soiland-Reyes <soiland-reyes@manchester.ac.uk>, Meznah Aloqalaa <meznah.aloqalaa@postgrad.manchester.ac.uk>
-CC:
-Carole Goble <carole.goble@manchester.ac.uk>, Neronov Andrii <andrii.neronov@epfl.ch>
 
-Hi Meznah, Stian,
 
-thanks for your replies and looking into it!
-I am on a conference until Wednesday but I try to reply as possible.
-
-I will put the answers from all emails here, but I almost feel like this would better fit in some document where we could put issues and so. I'd use github or overleaf?
-
-> These effectively S-expressions are powerful,
-
-Yes, that was the idea, in form to avoid pile of brackets at the end.
-
-> but of course need some kind of schema/documentation to be understood elsewhere. Here the arguments depends on the named function, which are defined elsewhere, presumably within the code?
+These effectively S-expressions are powerful, but of course need some kind of schema/documentation to be understood elsewhere. Here the arguments depends on the named function, which are defined elsewhere, presumably within the code?
 
 Tool name + version defines (presumably) globally unique name of a pure function. But of course this can not be guaranteed since version is set by the developer, so along with such a graph there is a always a list of references to modules with definitions (in practices most of them are references to github repositories, with revisions). I can send you this.
 Module is like this https://github.com/volodymyrss/dda-ddosa/blob/master/ddosa.py#L3220 . Modules contain only domain-specific code (and only this code) which is convoluted and subject to lot's of experiments and changes, so please don't judge code quality.
